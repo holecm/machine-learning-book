@@ -10,7 +10,7 @@ else:
 
 def get_packages(pkgs):
     versions = []
-    for p in pkgs:
+    for p in pkgs:  
         try:
             imported = __import__(p)
             try:
